@@ -28,7 +28,7 @@ async def first_state_handler(msg: Message, state: FSMContext) -> None:
 
 
 async def main() -> None:
-    bot = Bot("5061794097:AAGURwGpxgPbk7FBjh4bLuciZH15kds4iIs")
+    bot = Bot("")
 
     client = await nats.connect("nats://localhost:4222")
     adapter = NatsAdapter(client=client)
