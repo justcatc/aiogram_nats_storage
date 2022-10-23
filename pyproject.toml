@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nats_aiogram_storage"
+name = "aiogram_nats_storage"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
